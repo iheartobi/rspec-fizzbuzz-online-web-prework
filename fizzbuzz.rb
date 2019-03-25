@@ -10,8 +10,10 @@ def fizzbuzz(num)
    elsif num % 5 == 0 
     return "Buzz"
     
-    else num % 15 == 0 
+    elsif num % 3 == 0 && num % 5 == 0 
     return "FizzBuzz"
-    binding.pry
-end
+    
+  else num % 4 == 0 
+    return nil
+  end
 end
