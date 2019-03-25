@@ -12,8 +12,6 @@ def fizzbuzz(num)
     
     elsif num % 15 == 0 
     return "FizzBuzz"
-    binding.pry
-  else
-    return nil
+    
 end
 end
